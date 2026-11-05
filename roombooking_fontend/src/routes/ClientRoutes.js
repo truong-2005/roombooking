@@ -1,0 +1,17 @@
+import HomePage from '../pages/client/home/HomePage';
+import RoomSearchPage from '../pages/client/rooms/RoomSearchPage';
+import AvailableRoomsPage from '../pages/client/rooms/AvailableRoomsPage';
+import RoomDetailPage from '../pages/client/rooms/RoomDetailPage';
+import CreateBookingPage from '../pages/client/bookings/CreateBookingPage';
+import MyBookingsPage from '../pages/client/bookings/MyBookingsPage';
+import MyBookingDetailPage from '../pages/client/bookings/MyBookingDetailPage';
+import EditBookingPage from '../pages/client/bookings/EditBookingPage';
+import RescheduleBookingPage from '../pages/client/bookings/RescheduleBookingPage';
+import WeeklySchedulePage from '../pages/client/schedule/WeeklySchedulePage';
+import MyWeeklySchedulePage from '../pages/client/schedule/MyWeeklySchedulePage';
+import NotificationsPage from '../pages/client/notifications/NotificationsPage';
+import ProfilePage from '../pages/client/profile/ProfilePage';
+import EditProfilePage from '../pages/client/profile/EditProfilePage';
+import ChangePasswordPage from '../pages/client/profile/ChangePasswordPage';
+const ClientRoutes = { Home: HomePage, RoomSearch: RoomSearchPage, AvailableRooms: AvailableRoomsPage, RoomDetail: RoomDetailPage, CreateBooking: CreateBookingPage, MyBookings: MyBookingsPage, BookingDetail: MyBookingDetailPage, EditBooking: EditBookingPage, Reschedule: RescheduleBookingPage, Schedule: WeeklySchedulePage, MySchedule: MyWeeklySchedulePage, Notifications: NotificationsPage, Profile: ProfilePage, EditProfile: EditProfilePage, ChangePassword: ChangePasswordPage };
+export default ClientRoutes;

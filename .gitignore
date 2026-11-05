@@ -1,0 +1,18 @@
+# OS & IDE
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Dependencies & Build
+node_modules/
+**/node_modules/
+build/
+**/build/
+target/
+**/target/
+
+# Environment files
+.env.local
+.env.*.local
