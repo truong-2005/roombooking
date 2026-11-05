@@ -47,7 +47,7 @@ Hệ thống hỗ trợ 2 phân hệ người dùng chính:
 
 | Thành phần | Công nghệ / Thư viện |
 | :--- | :--- |
-| **Backend** | Java 21, Spring Boot, Spring Security (JWT), Spring Data JPA, Hibernate, Lombok |
+| **Backend** | Java, Spring Boot, Spring Security (JWT), Spring Data JPA, Hibernate, Lombok |
 | **Frontend** | React 19, React Router v7, Tailwind CSS, Axios, Create React App |
 | **Database** | MySQL 8.x / MariaDB |
 | **Môi trường DB** | XAMPP / Laragon / WampServer (phpMyAdmin) |
